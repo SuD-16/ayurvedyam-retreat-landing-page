@@ -146,3 +146,24 @@ h4{
 
 }
 
+
+.background-elements{
+    width: 100%;
+    height: 678px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+
+}
+.rock-img{
+    width: 205px;
+    height: 146px;
+    align-self: flex-end;
+    margin-right: 40px;
+    
+}
+
+.glasshour-img{
+    height: 450px;
+
+}
