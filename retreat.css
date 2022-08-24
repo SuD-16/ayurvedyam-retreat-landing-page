@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+    
+}
+
+
+.top-navigation-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+
+}
+
+.logo{
+    width: 10em;
+}
+
+nav a{
+    margin-left: 2em;
+    text-decoration: none;
+    color: #24292B;
+    font-weight: 700;
+}
+
+
+.top-header{
+    margin-top: 24px;
+    text-align: center;
+}
+
+h1{
+    font-family: 'DM Serif Display', serif;
+    font-size: 4rem;
+    text-align: center;
+    color: #24292B;
+    max-width: 922px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+h4{
+    font-family: 'DM Serif Display', serif;
+    font-size: 22px;
+    color: #3E4F55;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+
+.overview-section{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-top: 100px;
+
+}
+
+.overvie-image-area{
+    position: relative;
+    width: 256px;
+    height: 239px;
+}
+
+.overview-section img{
+    position: absolute;
+    left: 48px;
+}
+
+
+.overview-section p{
+    margin: 0;
+    color: #373F42;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    
+}
+
+
+
+.overview-content-box{
+    width: 675px;
+    flex-direction: column;
+    padding: 32px 24px;
+    text-align: left;
+    box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    margin: 0 auto;
+    max-width: 1076px;
+}
+
+.page-navigation-box{
+    height: 48px;
+    width: 100%;
+    background-color: white;
+    filter: drop-shadow(0px 4px 60px rgba(0, 0, 0, 0.06));
+    align-items: center;
+    margin-top: 100px;
+    position: fixed;
+    top: 0;
+    display: none;
+}
+
+.page-navigation-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 48px;
+    width: 1076px;
+}
+
+.page-navigation-items a{
+    text-decoration: none;
+    color:#3E4F55;
+    font-weight: 700;
+}
+
+.page-navigation-items .page-navigation-item-selected{
+    background-color: #11B0A1;
+    padding: 15px 12px;
+    color: white;
+    
+}
+
+
+.highlight-section{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.program-section{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
